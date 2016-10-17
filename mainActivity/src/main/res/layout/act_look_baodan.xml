@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/baodan_url"
+                android:layout_width="fill_parent"
+                android:layout_height="280dp" />
+
+            <TextView
+                android:id="@+id/baodan_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="@dimen/padding_size"
+                android:text="说明：\n 1、如您购买的保额在赠送的10万保额内，由福佑卡车和保险公司统一年保，并无对应的单票保单。额外购买的保险将每笔生成保单。"
+                android:textColor="@color/text_color2"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/baodan_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_size"
+                android:text="2、如果运单出险了，点击查看《福佑出险流程》"
+                android:textColor="@color/text_color2"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

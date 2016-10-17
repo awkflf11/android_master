@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--1920*1080的手机适配： -->
+    <!-- ########   ############ -->
+    <dimen name="login_height1_size">40dp</dimen>
+    <dimen name="login_height2_size">50dp</dimen>
+
+</resources>
+

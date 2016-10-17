@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/top_layout" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_padding_size"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/one_cell_height"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:layout_marginRight="@dimen/padding_right_size"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/send_name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="装货人姓名"
+                    android:textColor="@color/write_text_color"
+                    android:textSize="@dimen/edittext_size" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp" >
+
+                    <ImageView
+                        android:id="@+id/get_phonenumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/choose_phone" />
+                    <!-- com.foryou.truck.view.WithDelImgEditText -->
+
+                    <AutoCompleteTextView
+                        android:id="@+id/sender_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_toLeftOf="@id/get_phonenumber"
+                        android:background="@null"
+                        android:dropDownVerticalOffset="10dp"
+                        android:hint="请填写装货人姓名"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hint_color"
+                        android:textSize="@dimen/edittext_size" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:layout_marginRight="@dimen/padding_right_size"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/send_phone_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="装货人手机"
+                    android:textColor="@color/write_text_color"
+                    android:textSize="@dimen/edittext_size" />
+                <!-- com.foryou.truck.view.WithDelImgEditText -->
+ 
+                <com.foryou.truck.view.WithDelImgEditText
+                    android:id="@+id/sender_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@null"
+                    android:hint="请填写装货人手机号"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint_color"
+                    android:textSize="@dimen/edittext_size" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:layout_marginRight="@dimen/padding_right_size"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="    备用电话"
+                    android:textColor="@color/write_text_color"
+                    android:textSize="@dimen/edittext_size" />
+                <!-- com.foryou.truck.view.WithDelImgEditText -->
+
+                <com.foryou.truck.view.WithDelImgEditText
+                    android:id="@+id/sender_phone2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@null"
+                    android:hint="请填写备用人电话(非必填)"
+                    android:inputType="number"
+                    android:maxLength="28"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint_color"
+                    android:textSize="@dimen/edittext_size" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:background="@color/main_background_color" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:layout_marginRight="@dimen/padding_right_size"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/sender_address_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="    装货地址"
+                    android:textColor="@color/write_text_color"
+                    android:textSize="@dimen/edittext_size" />
+
+                <TextView
+                    android:id="@+id/base_location"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/my_gray_color"
+                    android:textSize="@dimen/edittext_size" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_color" />
+
+            <EditText
+                android:id="@+id/sender_address"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/one_cell_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:layout_marginRight="@dimen/padding_right_size"
+                android:background="@null"
+                android:hint="请填写详细地址"
+                android:maxLines="3"
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint_color"
+                android:textSize="@dimen/edittext_size" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/login_btn"
+            android:text="保存"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+</ScrollView>

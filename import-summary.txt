@@ -1,0 +1,96 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From MainActivity:
+* .DS_Store
+From android_convientbanner:
+* .DS_Store
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+gson-1.6.jar => com.google.code.gson:gson:1.6
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-1.6.jar => version 1.6 in com.google.code.gson:gson:1.6
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In android_convientbanner:
+* AndroidManifest.xml => android_convientbanner/src/main/AndroidManifest.xml
+* assets/ => android_convientbanner/src/main/assets
+* res/ => android_convientbanner/src/main/res/
+* src/ => android_convientbanner/src/main/java/
+* src/.DS_Store => android_convientbanner/src/main/resources/.DS_Store
+* src/com/.DS_Store => android_convientbanner/src/main/resources/com/.DS_Store
+* src/com/bigkoo/.DS_Store => android_convientbanner/src/main/resources/com/bigkoo/.DS_Store
+* src/com/bigkoo/convenientbanner/.DS_Store => android_convientbanner/src/main/resources/com/bigkoo/convenientbanner/.DS_Store
+In MainActivity:
+* AndroidManifest.xml => mainActivity/src/main/AndroidManifest.xml
+* assets/ => mainActivity/src/main/assets
+* libs/BaiduLBS_Android.jar => mainActivity/libs/BaiduLBS_Android.jar
+* libs/GetuiExt-2.0.3.jar => mainActivity/libs/GetuiExt-2.0.3.jar
+* libs/GetuiSdk2.4.1.0.jar => mainActivity/libs/GetuiSdk2.4.1.0.jar
+* libs/alipaySDK-20150610.jar => mainActivity/libs/alipaySDK-20150610.jar
+* libs/armeabi/libBaiduMapSDK_v3_3_0_15.so => mainActivity/src/main/jniLibs/armeabi/libBaiduMapSDK_v3_3_0_15.so
+* libs/armeabi/libbspatch.so => mainActivity/src/main/jniLibs/armeabi/libbspatch.so
+* libs/armeabi/libgetuiext.so => mainActivity/src/main/jniLibs/armeabi/libgetuiext.so
+* libs/armeabi/liblocSDK5.so => mainActivity/src/main/jniLibs/armeabi/liblocSDK5.so
+* libs/libammsdk.jar => mainActivity/libs/libammsdk.jar
+* libs/photeviewlib.jar => mainActivity/libs/photeviewlib.jar
+* libs/umeng-analytics-v5.4.1.jar => mainActivity/libs/umeng-analytics-v5.4.1.jar
+* libs/umeng-update-v2.6.0.1.jar => mainActivity/libs/umeng-update-v2.6.0.1.jar
+* libs/universal-image-loader-1.9.3.jar => mainActivity/libs/universal-image-loader-1.9.3.jar
+* libs/volley.jar => mainActivity/libs/volley.jar
+* lint.xml => mainActivity/lint.xml
+* res/ => mainActivity/src/main/res/
+* src/ => mainActivity/src/main/java/
+* src/.DS_Store => mainActivity/src/main/resources/.DS_Store
+* src/com/.DS_Store => mainActivity/src/main/resources/com/.DS_Store
+* src/com/foryou/.DS_Store => mainActivity/src/main/resources/com/foryou/.DS_Store
+* src/com/foryou/truck/.DS_Store => mainActivity/src/main/resources/com/foryou/truck/.DS_Store
+* src/com/foryou/truck/net/.DS_Store => mainActivity/src/main/resources/com/foryou/truck/net/.DS_Store
+* src/kankan/.DS_Store => mainActivity/src/main/resources/kankan/.DS_Store
+* src/kankan/wheel/.DS_Store => mainActivity/src/main/resources/kankan/wheel/.DS_Store
+* src/kankan/wheel/widget/.DS_Store => mainActivity/src/main/resources/kankan/wheel/widget/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

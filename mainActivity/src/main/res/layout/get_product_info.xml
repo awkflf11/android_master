@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/top_layout" />
+
+    <RelativeLayout
+        android:id="@+id/product_info_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/one_cell_height"
+        android:layout_marginTop="@dimen/top_padding_size"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_left_size"
+            android:text="货物名称"
+            android:textColor="@color/my_black1_color"
+            android:textSize="16dp" />
+
+        <!--
+            ImageView
+            android:id="@+id/arrow_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_right_size"
+            android:background="@drawable/back_icon_hui" /
+        -->
+
+        <com.foryou.truck.view.WithDelImgEditText
+            android:id="@+id/product_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/text"
+            android:background="@null"
+            android:hint="请填写货物名称"
+            android:textColor="@color/my_black1_color"
+            android:textColorHint="@color/hint_color"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line_color" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/one_cell_height"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_left_size"
+            android:text="货物重量"
+            android:textColor="@color/my_black1_color"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/dun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_right_size"
+            android:text="吨"
+            android:textColor="@color/my_black1_color" />
+
+        <com.foryou.truck.view.WithDelImgEditText
+            android:id="@+id/product_weight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/dun"
+            android:layout_toRightOf="@id/text1"
+            android:background="@null"
+            android:hint="请填写货物重量"
+            android:inputType="numberDecimal"
+            android:textColor="@color/my_black1_color"
+            android:textColorHint="@color/hint_color"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line_color" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/one_cell_height"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_left_size"
+            android:text="货物体积"
+            android:textColor="@color/my_black1_color"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/fang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_right_size"
+            android:text="方"
+            android:textColor="@color/my_black1_color" />
+
+        <com.foryou.truck.view.WithDelImgEditText
+            android:id="@+id/product_volume"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/fang"
+            android:layout_toRightOf="@id/text2"
+            android:background="@null"
+            android:hint="请填写货物体积(非必填)"
+            android:inputType="numberDecimal"
+            android:textColor="@color/my_black1_color"
+            android:textColorHint="@color/hint_color"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line_color" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/notice_truck_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="@color/my_pink_color"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/confirm_query"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/padding_left_size"
+        android:layout_marginRight="@dimen/padding_right_size"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_btn"
+        android:text="保存"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

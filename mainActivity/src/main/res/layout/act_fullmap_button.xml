@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map_pop_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:layout_marginRight="100dp"
+    android:background="@drawable/popup"
+    android:gravity="center"
+    android:maxWidth="280dp"
+    android:padding="10dp"
+    android:textColor="@color/text_color2"
+    android:textSize="12dp" />

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<in.srain.cube.views.ptr.PtrClassicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/load_more_list_view_ptr_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <in.srain.cube.views.loadmore.LoadMoreListViewContainer
+        android:id="@+id/load_more_list_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background_color">
+
+        <com.foryou.truck.view.PtrListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/main_background_color"
+            android:dividerHeight="0px"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:scrollbarStyle="outsideOverlay" />
+    </in.srain.cube.views.loadmore.LoadMoreListViewContainer>
+</in.srain.cube.views.ptr.PtrClassicFrameLayout>
