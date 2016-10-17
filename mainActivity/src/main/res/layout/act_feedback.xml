@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout" />
+    <!-- 留言反馈的页面 -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/feedback_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/main_background_color"
+                android:gravity="top"
+                android:hint="意见或建议都可以写在这里哟~~~"
+                android:minLines="10"
+                android:padding="10dp"
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/text_color3"
+                android:textSize="@dimen/person_center1_size" />
+
+            <Button
+                android:id="@+id/commit_feedback_bt"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="@dimen/margin_right_size"
+                android:layout_marginRight="@dimen/margin_right_size"
+                android:layout_marginTop="@dimen/margin_top_size"
+                android:background="@drawable/login_btn"
+                android:text="提交"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/person_center1_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp">
+
+                    <com.foryou.truck.view.TextViewWithIconFont
+                        android:id="@+id/phone_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="@string/phone_icon"
+                        android:textColor="#00a9e0"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/callphone_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        android:text="客服电话:   400-8008-577"
+                        android:textColor="@color/my_blue_color"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.foryou.truck.view.MutiTabChoose2 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/muti_tab_sharp_bg" >
+
+    <TextView
+        android:id="@+id/tab1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/muti_tab_btn_choose"
+        android:gravity="center"
+        android:textColor="@color/my_blue_color"
+        android:textSize="@dimen/tab_size" />
+
+    <TextView
+        android:id="@+id/tab2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tab1_text"
+        android:background="@drawable/muti_tab_btn_unchoose"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tab_size" />
+
+</com.foryou.truck.view.MutiTabChoose2>

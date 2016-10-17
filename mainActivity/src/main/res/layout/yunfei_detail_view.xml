@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="运         费:"
+        android:textColor="@color/text_color2"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/yunfei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/text_color2"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/baoxian_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yunfei"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="保         险:"
+        android:textColor="@color/text_color2"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/baoxian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/yunfei"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color2"
+        android:textSize="17dp" />
+
+    <!-- 赠送保险：-->
+    <TextView
+        android:id="@+id/give_baoxian_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/baoxian_text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="赠送保险:"
+        android:textColor="@color/text_color2"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/give_baoxian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/baoxian_text"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color2"
+        android:textSize="17dp" />
+
+
+    <TextView
+        android:id="@+id/suifei_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/give_baoxian_text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="税         费:"
+        android:textColor="@color/text_color2"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/suifei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/give_baoxian_text"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color2"
+        android:textSize="17dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/suifei"
+        android:layout_marginTop="15dp"
+        android:background="@color/line_color" />
+</RelativeLayout>

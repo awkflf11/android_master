@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--1280*720的手机适配： -->
+    <!-- ########   ############ -->
+    <dimen name="my_quan_date_size">12dp</dimen>
+    <dimen name="remarks_size">14dp</dimen>
+    <dimen name="car_info_size">14dp</dimen>
+    <dimen name="car_info_left">60dp</dimen>
+    <dimen name="bei_zhu_size">12dp</dimen>
+    <dimen name="orderdetail_button_size">18dp</dimen>
+    <dimen name="tab_size">18dp</dimen>
+    <dimen name="tab_jiange_size">15dp</dimen>
+    <dimen name="login_height1_size">40dp</dimen>
+    <dimen name="login_height2_size">50dp</dimen>
+
+</resources>
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.foryou.truck.activity.order.BaiduMapView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_background_color"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_Bottom_size"
+    android:paddingTop="@dimen/top_padding_size">
+
+    <LinearLayout
+        android:id="@+id/map_main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:background="@color/my_green_color"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="点击地图查看具体位置"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/map_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@+id/bmapView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <ImageView
+                android:id="@+id/dingwei_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/dingwei" />
+
+            <Button
+                android:id="@+id/detail_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@id/dingwei_img"
+                android:background="@drawable/dituhint"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#e2e2e2" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.foryou.truck.activity.order.BaiduMapView>
+
+
+
