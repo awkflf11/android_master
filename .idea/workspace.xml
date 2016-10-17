@@ -1,158 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d83a794a-a32d-440e-8be9-30063114e3af" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_ptr-lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/debug/libs/BDAutoUpdateSDK_20150605_V1.2.0.jar" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/debug/libs/BDAutoUpdateSDK_20150605_V1.2.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/debug/libs/need_lib.jar" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/debug/libs/need_lib.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/debug/libs/patchupdate.jar" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/debug/libs/patchupdate.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/release/libs/BDAutoUpdateSDK_20150605_V1.2.0.jar" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/release/libs/BDAutoUpdateSDK_20150605_V1.2.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/release/libs/need_lib.jar" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/release/libs/need_lib.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/release/libs/patchupdate.jar" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/bundles/release/libs/patchupdate.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/classes/debug/com/baidu/integrationsdk/lib/R.class" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/classes/debug/com/baidu/integrationsdk/lib/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/classes/release/com/baidu/integrationsdk/lib/R.class" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/classes/release/com/baidu/integrationsdk/lib/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/outputs/aar/BDIntegrationSDK_LibProject-debug.aar" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/outputs/aar/BDIntegrationSDK_LibProject-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/outputs/aar/BDIntegrationSDK_LibProject-release.aar" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/outputs/aar/BDIntegrationSDK_LibProject-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/list/PagedListDataModel.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/list/PagedListDataModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$FixedViewInfo.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$FixedViewInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$FullWidthFixedViewLayout.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$FullWidthFixedViewLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$HeaderViewGridAdapter.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$HeaderViewGridAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$ItemClickHandler.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$ItemClickHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/LoadMoreContainerBase$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/LoadMoreContainerBase$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/LoadMoreContainerBase$2.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/LoadMoreContainerBase$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/LoadMoreContainerBase.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/LoadMoreContainerBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/LoadMoreDefaultFooterView.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/loadmore/LoadMoreDefaultFooterView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicDefaultHeader$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicDefaultHeader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicDefaultHeader$LastUpdateTimeUpdater.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicDefaultHeader$LastUpdateTimeUpdater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicDefaultHeader.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicDefaultHeader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicFYHeader$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicFYHeader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicFYHeader$LastUpdateTimeUpdater.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicFYHeader$LastUpdateTimeUpdater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicFYHeader.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrClassicFYHeader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrDefaultHandler.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrDefaultHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrFrameLayout$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrFrameLayout$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrFrameLayout$2.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrFrameLayout$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrFrameLayout$ScrollChecker.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrFrameLayout$ScrollChecker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrFrameLayout.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrFrameLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrUIHandlerHook.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/PtrUIHandlerHook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/R.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialHeader$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialHeader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialHeader$2.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialHeader$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialHeader$3.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialHeader$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialHeader.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialHeader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$2.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$3.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$4.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$5.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$EndCurveInterpolator.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$EndCurveInterpolator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$OvalShadow.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$OvalShadow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$Ring.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$Ring.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$StartCurveInterpolator.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable$StartCurveInterpolator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/MaterialProgressDrawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/StoreHouseHeader$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/StoreHouseHeader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/StoreHouseHeader$AniController.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/StoreHouseHeader$AniController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/StoreHouseHeader.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/header/StoreHouseHeader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/util/PtrCLog.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/util/PtrCLog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/util/PtrLocalDisplay.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/debug/in/srain/cube/views/ptr/util/PtrLocalDisplay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/list/PagedListDataModel.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/list/PagedListDataModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$FixedViewInfo.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$FixedViewInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$FullWidthFixedViewLayout.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$FullWidthFixedViewLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$HeaderViewGridAdapter.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$HeaderViewGridAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$ItemClickHandler.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter$ItemClickHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/GridViewWithHeaderAndFooter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/LoadMoreContainerBase$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/LoadMoreContainerBase$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/LoadMoreContainerBase$2.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/LoadMoreContainerBase$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/LoadMoreContainerBase.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/LoadMoreContainerBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/LoadMoreDefaultFooterView.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/loadmore/LoadMoreDefaultFooterView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicDefaultHeader$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicDefaultHeader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicDefaultHeader$LastUpdateTimeUpdater.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicDefaultHeader$LastUpdateTimeUpdater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicDefaultHeader.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicDefaultHeader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicFYHeader$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicFYHeader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicFYHeader$LastUpdateTimeUpdater.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicFYHeader$LastUpdateTimeUpdater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicFYHeader.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrClassicFYHeader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrDefaultHandler.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrDefaultHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrFrameLayout$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrFrameLayout$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrFrameLayout$2.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrFrameLayout$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrFrameLayout$ScrollChecker.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrFrameLayout$ScrollChecker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrFrameLayout.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrFrameLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrUIHandlerHook.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/PtrUIHandlerHook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/R.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialHeader$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialHeader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialHeader$2.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialHeader$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialHeader$3.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialHeader$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialHeader.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialHeader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$2.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$3.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$4.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$5.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$EndCurveInterpolator.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$EndCurveInterpolator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$OvalShadow.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$OvalShadow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$Ring.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$Ring.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$StartCurveInterpolator.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable$StartCurveInterpolator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/MaterialProgressDrawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/StoreHouseHeader$1.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/StoreHouseHeader$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/StoreHouseHeader$AniController.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/StoreHouseHeader$AniController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/StoreHouseHeader.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/header/StoreHouseHeader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/util/PtrCLog.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/util/PtrCLog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/util/PtrLocalDisplay.class" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/classes/release/in/srain/cube/views/ptr/util/PtrLocalDisplay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/outputs/aar/ptr-lib-debug.aar" afterPath="$PROJECT_DIR$/ptr-lib/build/outputs/aar/ptr-lib-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/outputs/aar/ptr-lib-release.aar" afterPath="$PROJECT_DIR$/ptr-lib/build/outputs/aar/ptr-lib-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/BDIntegrationSDK_LibProject.iml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/BDIntegrationSDK_LibProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/blame/res/androidTest/debug/single/drawable.json" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/blame/res/androidTest/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/mergeReleaseShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/BDIntegrationSDK_LibProject/build/intermediates/incremental/packageReleaseResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainActivity/mainActivity.iml" afterPath="$PROJECT_DIR$/mainActivity/mainActivity.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/blame/res/androidTest/debug/multi/values-zh.json" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/blame/res/androidTest/debug/multi/values-zh.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugAndroidTestShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/mergeReleaseShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/ptr-lib/build/intermediates/incremental/packageReleaseResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptr-lib/ptr-lib.iml" afterPath="$PROJECT_DIR$/ptr-lib/ptr-lib.iml" />
     </list>
     <ignored path="myGridViewDemo1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -172,6 +28,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="myGridViewDemo1" />
@@ -3442,10 +3305,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="576" />
-    <option name="y" value="99" />
-    <option name="width" value="1445" />
-    <option name="height" value="679" />
+    <option name="x" value="1344" />
+    <option name="y" value="870" />
+    <option name="width" value="1671" />
+    <option name="height" value="939" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -3473,6 +3336,9 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3491,21 +3357,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myGridViewDemo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myGridViewDemo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainActivity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.1938691" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="device.picker.selection" value="1920" />
   </component>
   <component name="RunManager" selected="Android App.mainActivity">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -3809,47 +3687,59 @@
       <option name="presentableId" value="Default" />
       <updated>1476707247863</updated>
     </task>
+    <task id="LOCAL-00001" summary="ss">
+      <created>1476707717237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1476707717237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="576" y="99" width="1445" height="679" extended-state="0" />
+    <frame x="1344" y="870" width="1671" height="939" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39308578" sideWeight="0.7783985" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39308578" sideWeight="0.22160149" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981949" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21477343" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
