@@ -1,4 +1,0 @@
-//include ':android_convientbanner'
-include ':mainActivity'
-include ':ptr-lib'
-include ':BDIntegrationSDK_LibProject'

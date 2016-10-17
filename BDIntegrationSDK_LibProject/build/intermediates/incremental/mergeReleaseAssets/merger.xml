@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Apps\myGridViewDemo1\BDIntegrationSDK_LibProject\assets"/><source path="C:\Apps\myGridViewDemo1\BDIntegrationSDK_LibProject\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Apps\myGridViewDemo1\BDIntegrationSDK_LibProject\src\release\assets"/></dataSet></merger>
