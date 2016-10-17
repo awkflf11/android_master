@@ -1,14 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\android\\custom_st_1.3.0\\android\\ptr-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\cube_views_load_more_default_footer.xml",
-        "source": "C:\\Users\\android\\custom_st_1.3.0\\android\\ptr-lib\\build\\intermediates\\bundles\\debug\\res\\layout\\cube_views_load_more_default_footer.xml"
+        "merged": "C:\\Users\\android\\custom_st_1.3.0\\android\\ptr-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\cube_ptr_classic_default_header.xml",
+        "source": "C:\\Users\\android\\custom_st_1.3.0\\android\\ptr-lib\\build\\intermediates\\bundles\\debug\\res\\layout\\cube_ptr_classic_default_header.xml"
     },
     {
         "merged": "C:\\Users\\android\\custom_st_1.3.0\\android\\ptr-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\cube_ptr_simple_loading.xml",
         "source": "C:\\Users\\android\\custom_st_1.3.0\\android\\ptr-lib\\build\\intermediates\\bundles\\debug\\res\\layout\\cube_ptr_simple_loading.xml"
     },
     {
-        "merged": "C:\\Users\\android\\custom_st_1.3.0\\android\\ptr-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\cube_ptr_classic_default_header.xml",
-        "source": "C:\\Users\\android\\custom_st_1.3.0\\android\\ptr-lib\\build\\intermediates\\bundles\\debug\\res\\layout\\cube_ptr_classic_default_header.xml"
+        "merged": "C:\\Apps\\myGridViewDemo1\\ptr-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\cube_ptr_classic_default_header.xml",
+        "source": "C:\\Apps\\myGridViewDemo1\\ptr-lib\\build\\intermediates\\bundles\\debug\\res\\layout\\cube_ptr_classic_default_header.xml"
+    },
+    {
+        "merged": "C:\\Apps\\myGridViewDemo1\\ptr-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\cube_views_load_more_default_footer.xml",
+        "source": "C:\\Apps\\myGridViewDemo1\\ptr-lib\\build\\intermediates\\bundles\\debug\\res\\layout\\cube_views_load_more_default_footer.xml"
+    },
+    {
+        "merged": "C:\\Apps\\myGridViewDemo1\\ptr-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\cube_ptr_simple_loading.xml",
+        "source": "C:\\Apps\\myGridViewDemo1\\ptr-lib\\build\\intermediates\\bundles\\debug\\res\\layout\\cube_ptr_simple_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\android\\custom_st_1.3.0\\android\\ptr-lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\cube_views_load_more_default_footer.xml",
+        "source": "C:\\Users\\android\\custom_st_1.3.0\\android\\ptr-lib\\build\\intermediates\\bundles\\debug\\res\\layout\\cube_views_load_more_default_footer.xml"
     }
 ]

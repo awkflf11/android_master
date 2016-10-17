@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\android\\custom_st_1.3.0\\android\\BDIntegrationSDK_LibProject\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\bdp_update_logo.png",
         "source": "C:\\Users\\android\\custom_st_1.3.0\\android\\BDIntegrationSDK_LibProject\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\bdp_update_logo.png"
+    },
+    {
+        "merged": "C:\\Apps\\myGridViewDemo1\\BDIntegrationSDK_LibProject\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\bdp_update_logo.png",
+        "source": "C:\\Apps\\myGridViewDemo1\\BDIntegrationSDK_LibProject\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\bdp_update_logo.png"
     }
 ]
