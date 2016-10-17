@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="patchupdate">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/BDIntegrationSDK_LibProject/libs/patchupdate.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
