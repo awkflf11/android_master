@@ -36,6 +36,8 @@ public class AboutUsActivity extends BaseActivity {
         // TODO Auto-generated method stub
         super.setRootView();
         setContentView(R.layout.about_us);
+		
+		
     }
 
     @Override
