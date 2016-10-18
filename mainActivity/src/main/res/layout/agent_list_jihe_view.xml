@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_color"
+    android:orientation="vertical"
+    >
+
+
+    <com.foryou.truck.view.CircleReduceTimeView
+        android:id="@+id/reduce_time_circle_view"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="集合竞价倒计时"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/text_color2"
+        android:textSize="12dp"
+        />
+
+    <TextView
+        android:id="@+id/lowest_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/my_orange_color"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/lowest_price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/text_color2"
+        android:text="实时参考报价"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/text_color3"
+        android:layout_gravity="center_horizontal"
+        android:text="30分钟后竞价完成,您可以看到福佑的最低报价并下单"
+        />
+</LinearLayout>
+

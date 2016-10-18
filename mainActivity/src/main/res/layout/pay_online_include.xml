@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f1f1f1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp">
+
+            <include
+                android:id="@+id/expand_view2"
+                layout="@layout/layout_expand_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" />
+
+            <!-- 运单金额： -->
+            <RelativeLayout
+                android:id="@+id/jiner_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/expand_view2"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/orignal_price_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="运         费:"
+                    android:textColor="@color/text_color2"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/orignal_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toRightOf="@id/orignal_price_key"
+                    android:text="¥0"
+                    android:textColor="@color/text_color2"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <!-- 保险费用 -->
+            <RelativeLayout
+                android:id="@+id/baoxian_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jiner_layout"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@id/expand_view2"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/baoxian_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="保         险:"
+                    android:textColor="@color/text_color2"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/baoxian_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toRightOf="@id/baoxian_key"
+                    android:text="¥0"
+                    android:textColor="@color/text_color2"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/give_baoxian_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/baoxian_layout"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@id/expand_view2"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/give_baoxian_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赠送保险:"
+                    android:textColor="@color/text_color2"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/give_baoxian"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toRightOf="@id/give_baoxian_key"
+                    android:text="-¥0"
+                    android:textColor="@color/text_color2"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+
+            <!-- 税费： -->
+            <RelativeLayout
+                android:id="@+id/taxation_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/give_baoxian_layout"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@id/expand_view2"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/taxation_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="税         费:"
+                    android:textColor="@color/text_color2"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/taxation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/taxation_key"
+                    android:text="¥0"
+                    android:textColor="@color/text_color2"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <!-- 代金券 -->
+            <!--<RelativeLayout-->
+            <!--android:id="@+id/hongbao_layout"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/taxation_layout"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:visibility="gone">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/discount_price_key"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="代金券抵扣:"-->
+            <!--android:textColor="@color/text_color2"-->
+            <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/discount_price"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_toRightOf="@id/discount_price_key"-->
+            <!--android:text="-¥0"-->
+            <!--android:textColor="@color/text_color2"-->
+            <!--android:textSize="16dp" />-->
+            <!--</RelativeLayout>-->
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

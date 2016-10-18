@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="57dp"
+    android:background="@color/title_bg" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/back_view"
+        android:visibility="gone"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/arraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/back_img" />
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ 			android:visibility="visible"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/arraw"
+            android:background="@null"
+            android:text="返回"
+            android:clickable="false"
+            android:layout_marginLeft="2dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp" >
+        </Button>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:visibility="gone" >
+    </Button>
+
+    <ImageView
+        android:id="@+id/right_img"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/right2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@id/right"
+        android:background="@null"
+        android:textColor="#31abde"
+        android:textSize="18dp"
+        android:visibility="gone" >
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#FF888888</color>
+    <color name="half_white">#c0ffffff</color>
+    <color name="transparent">#000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="half_black">#cc000000</color>
+    <color name="login_bg">#e5e5e5</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="my_buddy_footer_color">#666666</color>
+    <color name="dkgray">#FF444444</color>
+    <color name="ltgray">#FFCCCCCC</color>
+    <color name="cyan">#FF00FFFF</color>
+    <color name="magenta">#FFFF00FF</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="title_bg">#ff00a9e0</color>
+    <color name="line_color">#ffe2e2e2</color>
+    <color name="word_color">#ff101010</color>
+    <color name="choose_color">#fff15353</color>
+    <color name="unchoose_color">#ff848689</color>
+    <color name="cover_bg">#ff91c150</color>
+    <color name="wubaojia_bg">#dbdbdb</color>
+    <color name="wubaojia_tx_color">#666666</color>
+    <color name="tishi_bg_color">#693082</color>
+
+    <color name="write_text_color">#666666</color>
+    <color name="hint_color">#ffc5c5c5</color>
+    <color name="my_hint_color">#999999</color>
+    <color name="my_blue_color">#00a9e0</color>
+    <color name="my_gray_color">#9ba5a8</color>
+    <color name="my_pink_color">#ff6900</color>
+    <color name="my_red_color">#e4002b</color>
+    <color name="my_green_color">#21cc71</color>
+    <color name="transparent_background">#50000000</color>
+    <!-- ###### -->
+    <color name="main_background_color">#f1f1f1</color>
+    <color name="separation_line">#e2e2e2</color>
+    <color name="my_orange_color">#ff6900</color>
+    <color name="my_gray4_color">#e2e2e2</color>
+    <color name="my_black_color">#101010</color>
+    <color name="my_black1_color">#333333</color>
+    <color name="my_black2_color">#666666</color>
+    <color name="my_gray1_color">#f1f1f1</color>
+    <color name="my_gray2_color">#8e8e8e</color>
+    <color name="my_gray3_color">#c5c5c5</color>
+
+    <color name="text_color1">#333333</color>
+    <color name="text_color2">#666666</color>
+    <color name="text_color3">#999999</color>
+
+
+</resources>

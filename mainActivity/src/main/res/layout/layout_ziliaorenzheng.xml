@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/layout_ziliao_cell"
+            android:visibility="visible" />
+
+        <!--银行卡号：-->
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bank_hao__key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="银行卡号"
+                android:textColor="@color/text_color2"
+                android:textSize="@dimen/edittext_size" />
+
+            <com.foryou.truck.view.WithDelImgEditText
+                android:id="@+id/bank_hao_value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/bank_hao__key"
+                android:background="@null"
+                android:hint="输入银行卡号"
+                android:maxLength="18"
+                android:inputType="number"
+                android:text=""
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/hint_color"
+                android:textSize="16dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+
+        </RelativeLayout>
+
+        <!--银行名称：-->
+        <RelativeLayout
+            android:id="@+id/bank_name_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bank_name__key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="银行名称"
+                android:textColor="@color/text_color2"
+                android:textSize="@dimen/edittext_size" />
+
+            <ImageView
+                android:id="@+id/back_iv"
+                android:layout_width="@dimen/person_cent_width"
+                android:layout_height="@dimen/person_cent_hight"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_right" />
+
+            <com.foryou.truck.view.WithDelImgEditText
+                android:id="@+id/bank_name_value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/back_iv"
+                android:layout_toRightOf="@id/bank_name__key"
+                android:background="@null"
+                android:hint="请选择"
+                android:text=""
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/hint_color"
+                android:textSize="16dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+
+        </RelativeLayout>
+        <!--开户行 ++++++++++++：-->
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bank_place_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="开户行    "
+                android:textColor="@color/text_color2"
+                android:textSize="@dimen/edittext_size" />
+
+            <com.foryou.truck.view.WithDelImgEditText
+                android:id="@+id/bank_place_value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/bank_place_key"
+                android:background="@null"
+                android:hint="填写开户行名称"
+                android:text=""
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/hint_color"
+                android:textSize="16dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+        </RelativeLayout>
+
+        <!--区域：-->
+        <RelativeLayout
+            android:id="@+id/area_name_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/area_name_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="区域        "
+                android:textColor="@color/text_color2"
+                android:textSize="@dimen/edittext_size" />
+
+            <ImageView
+                android:id="@+id/back_iv2"
+                android:layout_width="@dimen/person_cent_width"
+                android:layout_height="@dimen/person_cent_hight"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_right" />
+
+            <TextView
+                android:id="@+id/area_name_vlaue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/back_iv2"
+                android:layout_toRightOf="@id/area_name_key"
+                android:background="@null"
+                android:hint="请选择"
+                android:text=""
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/hint_color"
+                android:textSize="16dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="200dp"
+    android:visibility="gone" >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/wudingdan" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="暂无内容"
+        android:textColor="@color/my_gray2_color"
+        android:textSize="@dimen/write_text_size" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/text"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/padding_left_size"
+        android:layout_marginRight="@dimen/padding_right_size"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:background="@drawable/login_btn"
+        android:text="现在去发货"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        />
+</RelativeLayout>

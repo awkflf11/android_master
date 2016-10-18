@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!--   <include layout="@layout/top_layout" />-->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#F1F1F1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/mod_personinfo_rl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/my_blue_color"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <!--    android:layout_height="@dimen/per_height"-->
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/arraw_back_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="40dp"
+                        android:paddingTop="20dp">
+
+                        <ImageView
+                            android:id="@+id/arraw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/back_img" />
+
+                        <Button
+                            android:id="@+id/left"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="2dp"
+                            android:layout_toRightOf="@id/arraw"
+                            android:background="@null"
+                            android:clickable="false"
+                            android:text="返回"
+                            android:textColor="#ffffff"
+                            android:textSize="18dp"
+                            android:visibility="visible" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/sett_rl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="20dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="设置"
+                            android:textColor="#ffffff"
+                            android:textSize="18dp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/avatar_iv"
+                            android:layout_width="58dp"
+                            android:layout_height="58dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/avatar_default"
+                            android:clickable="true" />
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/avatar_default_bg" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/login_ll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="27dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_log" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/name_rl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/usename_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text=""
+                        android:textColor="#ffffff"
+                        android:textSize="20dp" />
+
+                    <com.foryou.truck.view.TextViewWithIconFont
+                        android:id="@+id/sex_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="7dp"
+                        android:layout_toRightOf="@id/usename_tv"
+                        android:text=""
+                        android:textColor="#ffffff"
+                        android:textSize="12dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/phone_ll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/phone_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text=""
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/person_center2_size" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/status_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="2dp"
+                    android:text=""
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+            <!-- 个人资料 开始 +++++++++++++++++++-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/mod_password_rl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/selec_item_bg"
+                    android:clickable="true">
+
+                    <com.foryou.truck.view.TextViewWithIconFont
+                        android:id="@+id/ziliao_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_right_size"
+                        android:background="@drawable/icon_mod_password" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@id/ziliao_iv"
+                        android:text="修改密码"
+                        android:textColor="@color/text_color1"
+                        android:textSize="@dimen/write_text_size" />
+
+                    <ImageView
+                        android:layout_width="@dimen/person_cent_width"
+                        android:layout_height="@dimen/person_cent_hight"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_right_size"
+                        android:background="@drawable/back_right" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/separation_line" />
+
+                <RelativeLayout
+                    android:id="@+id/share_rl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/selec_item_bg"
+                    android:clickable="true">
+
+                    <com.foryou.truck.view.TextViewWithIconFont
+                        android:id="@+id/share_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_right_size"
+                        android:background="@drawable/icon_share" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@id/share_iv"
+                        android:text="分享朋友圈"
+                        android:textColor="@color/text_color1"
+                        android:textSize="@dimen/write_text_size" />
+
+                    <ImageView
+                        android:layout_width="@dimen/person_cent_width"
+                        android:layout_height="@dimen/person_cent_hight"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_right_size"
+                        android:background="@drawable/back_right" />
+                </RelativeLayout>
+
+                <!--<View-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="@color/separation_line" />-->
+                <!--&lt;!&ndash; 邀请好友获得代金券 &ndash;&gt;-->
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/get_daijinquan_rl"-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:background="@drawable/selec_item_bg"-->
+                    <!--android:clickable="true">-->
+
+                    <!--<com.foryou.truck.view.TextViewWithIconFont-->
+                        <!--android:id="@+id/get_daijinquan_iv"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginLeft="@dimen/margin_right_size"-->
+                        <!--android:text="@string/yaoqing_icon"-->
+                        <!--android:textColor="@color/my_blue_color"-->
+                        <!--android:textSize="16dp" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginLeft="15dp"-->
+                        <!--android:layout_toRightOf="@id/get_daijinquan_iv"-->
+                        <!--android:text="邀请好友获得代金券"-->
+                        <!--android:textColor="@color/text_color1"-->
+                        <!--android:textSize="@dimen/write_text_size" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="@dimen/person_cent_width"-->
+                        <!--android:layout_height="@dimen/person_cent_hight"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginRight="@dimen/margin_right_size"-->
+                        <!--android:background="@drawable/back_right" />-->
+                <!--</RelativeLayout>-->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/separation_line"
+                    android:visibility="gone"/>
+
+                <!-- 我的代金券 -->
+                <RelativeLayout
+                    android:id="@+id/my_daijinquan_rl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/selec_item_bg"
+                    android:clickable="true"
+                    android:visibility="gone">
+
+                    <com.foryou.truck.view.TextViewWithIconFont
+                        android:id="@+id/my_daijinquan_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_right_size"
+                        android:background="@drawable/icon_my_daijinquan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@id/my_daijinquan_iv"
+                        android:text="我的代金券"
+                        android:textColor="@color/text_color1"
+                        android:textSize="@dimen/write_text_size" />
+
+                    <ImageView
+                        android:layout_width="@dimen/person_cent_width"
+                        android:layout_height="@dimen/person_cent_hight"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_right_size"
+                        android:background="@drawable/back_right" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/separation_line" />
+                <!-- 留言反馈 -->
+                <RelativeLayout
+                    android:id="@+id/fankui_rl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/selec_item_bg"
+                    android:clickable="true">
+
+                    <com.foryou.truck.view.TextViewWithIconFont
+                        android:id="@+id/fankui_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_right_size"
+                        android:background="@drawable/icon_feedback" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@id/fankui_iv"
+                        android:text="留言反馈"
+                        android:textColor="@color/text_color1"
+                        android:textSize="@dimen/write_text_size" />
+
+                    <ImageView
+                        android:layout_width="@dimen/person_cent_width"
+                        android:layout_height="@dimen/person_cent_hight"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_right_size"
+                        android:background="@drawable/back_right" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/call_phone_ll"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <com.foryou.truck.view.TextViewWithIconFont
+                    android:id="@+id/phone_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/phone_icon"
+                    android:textColor="#00a9e0"
+                    android:textSize="12dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/call_phone_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="联系客服:   400-8008-577"
+                    android:textColor="#00a9e0"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="25dp"
+                    android:paddingTop="20dp"
+                    android:textSize="@dimen/write_text5_size" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_rl"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#f1f1f1">
+
+    <TextView
+        android:id="@+id/imageText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/car_info_size" />
+
+    <!--   <TextView
+           android:id="@+id/imageText"
+           android:layout_width="80dp"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:background="#f1f1f1"
+           android:gravity="center"
+           android:paddingBottom="8dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="8dp"
+           android:paddingTop="8dp"
+           android:textColor="@color/black"
+           android:textSize="14dp"   />-->
+
+    <ImageView
+        android:id="@+id/showup_iv"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/imageText"
+        android:background="@drawable/back_icon_down2"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:visibility="gone" />
+    <!-- android:background="@drawable/item_gridview_sharp_bg" -->
+
+</RelativeLayout>

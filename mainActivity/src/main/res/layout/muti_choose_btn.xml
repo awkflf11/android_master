@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.foryou.truck.view.MutiChooseBtn xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="110dp"
+        android:layout_height="33dp"
+        android:background="@drawable/choose_gray" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/gouhao"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img"
+                android:layout_centerVertical="true"
+                android:textColor="@color/unchoose_color"
+                android:textSize="@dimen/query_price_textsize" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="110dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/layout"
+        android:background="@drawable/choose_gray" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/gouhao"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tx1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img1"
+                android:layout_centerVertical="true"
+                android:textColor="@color/unchoose_color"
+                android:textSize="@dimen/query_price_textsize" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</com.foryou.truck.view.MutiChooseBtn>

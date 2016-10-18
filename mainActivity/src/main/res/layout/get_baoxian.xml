@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f1f1f1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/top_layout" />
+
+        <TextView
+            android:id="@+id/not_use_baoxian"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_padding_size"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="自行购买保险"
+            android:textColor="@color/my_gray_color"
+            android:textSize="@dimen/edittext_size"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/one_cell_height"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/product_value_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:text="货物总价"
+                android:textColor="@color/text_color1"
+                android:textSize="@dimen/edittext_size" />
+
+            <TextView
+                android:id="@+id/yuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_right_size"
+                android:text="元"
+                android:textColor="@color/text_color1" />
+
+            <com.foryou.truck.view.WithDelImgEditText
+                android:id="@+id/product_value"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/yuan"
+                android:layout_toRightOf="@id/product_value_text"
+                android:background="@null"
+                android:hint="请填写货物总价值"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/my_gray3_color"
+                android:textSize="16dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+        </RelativeLayout>
+        <!-- 保险费用： -->
+
+        <RelativeLayout
+            android:id="@+id/baoxian_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/one_cell_height"
+            android:background="@color/white"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/baoxian_value_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:text="保险费用"
+                android:textColor="@color/text_color1"
+                android:textSize="@dimen/edittext_size" />
+
+            <TextView
+                android:id="@+id/yuan1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_right_size"
+                android:text="元"
+                android:textColor="@color/text_color1" />
+
+            <TextView
+                android:id="@+id/baoxian_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/baoxian_value_text"
+                android:textColor="@color/my_gray3_color"
+                android:textSize="@dimen/edittext_size" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/free_baoxian_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/padding_left_size"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/red"
+            android:textSize="12dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/give_baoxian_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="赠送保险费用为**元"
+            android:textColor="@color/text_color2"
+            android:textSize="14dp"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/select_goods_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/one_cell_height"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/select_goods_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:text="货物类型"
+                android:textColor="@color/text_color1"
+                android:textSize="@dimen/edittext_size" />
+
+            <TextView
+                android:id="@+id/goodstype__tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/select_goods_text"
+                android:hint="请选择货物类型"
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/my_gray3_color"
+                android:textSize="@dimen/edittext_size" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/one_cell_height"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/baoxian_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:text="被保险人"
+                android:textColor="@color/text_color1"
+                android:textSize="@dimen/edittext_size" />
+
+            <com.foryou.truck.view.WithDelImgEditText
+                android:id="@+id/baoxian_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="@dimen/padding_right_size"
+                android:layout_toRightOf="@id/baoxian_name_text"
+                android:background="@null"
+                android:hint="请填写货物所有权公司名称"
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/my_gray3_color"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/one_cell_height"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/product_number_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:text="货物件数"
+                android:textColor="@color/text_color1"
+                android:textSize="@dimen/edittext_size" />
+
+            <com.foryou.truck.view.WithDelImgEditText
+                android:id="@+id/product_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="@dimen/padding_right_size"
+                android:layout_toRightOf="@id/product_number_text"
+                android:background="@null"
+                android:hint="请填写货物件数"
+                android:inputType="number"
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/my_gray3_color"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/one_cell_height"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/baozhuang_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/padding_left_size"
+                android:text="货物包装"
+                android:textColor="@color/text_color1"
+                android:textSize="@dimen/edittext_size" />
+
+            <com.foryou.truck.view.WithDelImgEditText
+                android:id="@+id/baozhuang"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="@dimen/padding_right_size"
+                android:layout_toRightOf="@id/baozhuang_text"
+                android:background="@null"
+                android:hint="如：木箱、编织袋等"
+                android:textColor="@color/text_color1"
+                android:textColorHint="@color/my_gray3_color"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/line_color" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/padding_left_size"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保险具体细则请参照"
+                android:textColor="@color/text_color2"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/baoxianxieyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="《大地保险协议》"
+                android:textColor="@color/my_pink_color"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_btn"
+            android:text="确定购买"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+</ScrollView>

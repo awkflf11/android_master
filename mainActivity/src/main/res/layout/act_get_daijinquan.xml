@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/top_layout" />
+
+    <RelativeLayout
+        android:id="@+id/not_user_daijinquan"
+        android:layout_width="fill_parent"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/separation_line" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:clickable="false"
+            android:text="不使用代金券"
+            android:textColor="@color/text_color1"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/not_user_daijinquan"
+        android:layout_below="@id/title_layout">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/duihuan_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="@null"
+                    android:text="确认"
+                    android:textColor="@color/my_blue_color"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/one_cell_height"
+                    android:layout_toLeftOf="@id/duihuan_btn">
+
+                    <com.foryou.truck.view.WithDelImgEditText
+                        android:id="@+id/discount_number"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/border_setdaijinquan"
+                        android:gravity="center_horizontal"
+                        android:text=""
+                        android:hint="请填写代金券号"
+                        android:maxLines="1"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="8dp"
+                        android:textColor="@color/text_color1"
+                        android:textColorHint="@color/text_color3"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/select_quan_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="15dp"
+                android:text="选择已有代金券"
+                android:textColor="@color/text_color2"
+                android:textSize="15dp"
+                android:visibility="gone" />
+
+            <com.foryou.truck.view.ListViewForScrollView
+                android:id="@+id/daijinquan_lv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:divider="@color/my_buddy_footer_color"
+                android:dividerHeight="0px"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:listSelector="#00000000" />
+
+            <TextView
+                android:id="@+id/hint_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="30dp"
+                android:text="1.一张代金券只能使用一次。\n2.代金券只能抵扣运费，不能折现。如:使用一张￥100的代金券，运费为￥1000时，则实际只需要支付￥900。"
+                android:textColor="@color/text_color2"
+                android:textSize="12dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

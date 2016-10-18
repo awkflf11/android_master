@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/main_background_color">
+
+    <RelativeLayout
+        android:id="@+id/order_sn_agent_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1f1f1"
+        android:paddingBottom="8dp"
+        android:paddingLeft="@dimen/padding_left_size"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="经纪人信息"
+            android:textColor="@color/write_text_color"
+            android:textSize="@dimen/order_detail_text_size" />
+
+        <TextView
+            android:id="@+id/order_sn_agent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/my_gray_color"
+            android:textSize="@dimen/order_detail_text_size" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/driver_detail_layout"
+        layout="@layout/driver_detail_driver_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/not_array_driver_layout"
+        layout="@layout/driver_detail_not_array"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_padding_size"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/urge_pay_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_left_size"
+        android:layout_marginRight="@dimen/padding_left_size"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_Bottom_size"
+        android:paddingTop="@dimen/padding_top_size"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/notice" />
+
+        <TextView
+            android:id="@+id/top_pay_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/red"
+            android:textSize="@dimen/order_detail_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/agent_name_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_left_size"
+        android:layout_marginRight="@dimen/padding_left_size"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="经纪人姓名"
+            android:textColor="@color/write_text_color"
+            android:textSize="@dimen/order_detail_text_size" />
+
+        <TextView
+            android:id="@+id/jijiren_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/my_black1_color"
+            android:textSize="@dimen/order_detail_text_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/agent_phone_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="@dimen/padding_left_size"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/jinjiren_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="经纪人手机"
+            android:textColor="@color/write_text_color"
+            android:textSize="@dimen/order_detail_text_size" />
+
+        <TextView
+            android:id="@+id/jijiren_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/jinjiren_text"
+            android:textColor="@color/my_blue_color"
+            android:textSize="@dimen/order_detail_text_size" />
+    </RelativeLayout>
+</LinearLayout>

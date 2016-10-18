@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@android:color/white" /> <!-- 填充的颜色 -->
+    <!-- 间隔 -->
+    <padding
+        android:bottom="2dp"
+        android:left="@dimen/tab_jiange_size"
+        android:right="@dimen/tab_jiange_size"
+        android:top="2dp" /> <!-- 各方向的间隔 -->
+    <corners
+        android:bottomLeftRadius="15dp"
+        android:bottomRightRadius="15dp"
+        android:topLeftRadius="15dp"
+        android:topRightRadius="15dp" />
+
+</shape>
