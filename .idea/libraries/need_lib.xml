@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="need_lib">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/BDIntegrationSDK_LibProject/libs/need_lib.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

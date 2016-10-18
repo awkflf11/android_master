@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="photeviewlib">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/mainActivity/libs/photeviewlib.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
